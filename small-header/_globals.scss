@@ -1,0 +1,55 @@
+// Measurements
+$width-max-content:             1340px;  // for elements not marked as "big": page header and footer, etc.
+$width-max-big-content:         1600px;  // for "big" elements: homepage slideshow, page titles, etc.
+$content-margin:                47px;    // this margin-left, margin-right applies to non-big content only
+
+// ==========================
+// Bootstrap 4.1 Overrides
+// ==========================
+$primary: #ff6c0c;
+
+// These defaults inferred by inspecting http://www.creative-preview.com/styleguide/caltech/typography.html
+// and looking at the styles on <body>. They get applied to <body> by Bootstrap.
+$body-color: #333333;
+$font-family-sans-serif: 'Helvetica', 'Arial', sans-serif;
+// KWALL gave us all their measurments based on stylesheets where the base font size was set to 10px.
+// After some experimentation, setting the font-size to 10px in the html and then telling Bootstrap
+// that you want everything scaled to 1rem makes all of the other font-size definitions in the design doc work.
+$font-size-in-html: 10px;
+$font-size-base:   1rem;
+$line-height-base: 1.555; // This one's set to a scalar, instead of a rem value, so that Bootstrap can compile.
+
+// Grid Breakpoints
+// sm: portrait phone
+// md: portrait tablet/lanscape phone
+// lg: desktop/landscape tablet
+// xl: wide desktop
+
+// These values re-define how Bootstrap sizes its grid.
+// TODO: I *think* these will work, but I'm not 100% sure. We'll need to experiment.
+$grid-breakpoints: (
+  xs: 0,
+  sm: 480px,
+  md: 768px,
+  lg: 1024px,
+  xl: 1440px,
+);
+
+$container-max-widths: (
+  sm: 460px,
+  md: 748px,
+  lg: 1000px,
+  xl: 1440px,
+);
+
+// The KWall style guide wants a 1340px max-width with 93px columns and 21px
+// gutters.  But 21px is not evenly divisible, so let's just set gutter-width
+// to 22px and get 92px columns.  We end up with 1346px max-width, so we'll
+// have to shrink our left and right margins to 47 from 50.
+$grid-gutter-width: 22px;
+
+$banner-z: 500;
+
+// Tells the Iconic font code where to find its font files. Note that this will also affect any other font library/
+// that is Bootstra-compatible, so it may not be appropriate to use this value permanently.
+$icon-font-path: '/static/theme-v7.0/open-iconic/font/fonts/';

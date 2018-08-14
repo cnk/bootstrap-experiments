@@ -1,0 +1,17 @@
+@import "_globals.scss";
+
+// Import the Bootstrap file that defines how breakpoints are made so we can use it in our mixins
+@import "../bootstrap-4.1.3/scss/mixins/_breakpoints.scss";
+
+@include media-breakpoint-down(md) {
+  .row {flex-direction: column-reverse;}
+}
+
+.item-info {
+  background-color: blue;
+  color: white;
+}
+
+.image {
+  background-color: yellow;
+}

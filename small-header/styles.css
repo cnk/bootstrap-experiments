@@ -1,0 +1,16 @@
+@media (max-width: 1023.98px) {
+  .row {
+    flex-direction: column-reverse;
+  }
+}
+
+.item-info {
+  background-color: blue;
+  color: white;
+}
+
+.image {
+  background-color: yellow;
+}
+
+/*# sourceMappingURL=styles.css.map */

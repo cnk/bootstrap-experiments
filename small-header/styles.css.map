@@ -1,0 +1,11 @@
+{
+	"version": 3,
+	"file": "styles.css",
+	"sources": [
+		"styles.scss",
+		"_globals.scss",
+		"../bootstrap-4.1.3/scss/mixins/_breakpoints.scss"
+	],
+	"names": [],
+	"mappings": "AEyEI,MAAM,EAAE,SAAS,EAAE,SAAS;EFnE9B,AAAA,IAAI,CAAC;IAAC,cAAc,EAAE,cAAc;GAAG;;;AAGzC,AAAA,UAAU,CAAC;EACT,gBAAgB,EAAE,IAAI;EACtB,KAAK,EAAE,KAAK;CACb;;AAED,AAAA,MAAM,CAAC;EACL,gBAAgB,EAAE,MAAM;CACzB"
+}
