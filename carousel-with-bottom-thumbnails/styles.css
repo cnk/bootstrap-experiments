@@ -1,0 +1,59 @@
+
+.carousel-wbt {
+  /* Cheat for now - fixed width wrapper*/
+  width: 296px;
+}
+
+.carousel-wbt__slide {
+  position: relative;
+}
+.carousel-wbt__slide:not(.active) {
+  display: none;
+}
+
+.carousel-wbt__image {
+  width: 100%;
+  height: auto;
+}
+
+.carousel-wbt__thumbnail-wrapper {
+  position: relative; // used to tell the carousel-controls where to line up
+  width: 100%;
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+/*.carousel-wbt__thumbnail {
+  // implement "50% black overlay" with a black background then making the images 50% opaque to let it show through
+  background-color: black;
+  border-right: white 2px solid;
+}
+.carousel-wbt:not(.active) img {
+  opacity: 0.5;
+}
+*/
+/* The elements below are the left and right arrows on the side of each slide */
+.carousel-wbt__thumbnails__carousel-control {
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    transform: translateY(-50%);
+    width: 25px;
+    height: 100%;
+    background-color: rgba(255, 255, 255, .3);
+    text-align: center;
+}
+.carousel-wbt__thumbnails__carousel-control__icon {
+  height: 20px;
+  width: auto;
+  margin: 15px 0;
+}
+
+.carousel-wbt__thumbnails__carousel-control--left {
+  left: 0;
+  cursor: w-resize;
+}
+.carousel-wbt__thumbnails__carousel-control--right {
+  right: 0;
+  cursor: e-resize;
+}
