@@ -38,13 +38,13 @@
     top: 50%;
     bottom: 50%;
     transform: translateY(-50%);
-    width: 25px;
+    width: 15px;
     height: 100%;
     background-color: rgba(255, 255, 255, .3);
     text-align: center;
 }
 .carousel-wbt__thumbnails__carousel-control__icon {
-  height: 20px;
+  height: 15px;
   width: auto;
   margin: 15px 0;
 }
