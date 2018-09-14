@@ -1,0 +1,4 @@
+# List of required python packages. Install using `pip install -f requirements.txt`
+# I am using Python 3.6.4 at the moment (September 2018)
+
+Pillow>=5.2.0
