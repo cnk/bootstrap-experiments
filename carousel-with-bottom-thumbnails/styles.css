@@ -1,7 +1,6 @@
 
 .carousel-wbt {
-  /* Cheat for now - fixed width wrapper*/
-  width: 296px;
+  max-width: 800px;
 }
 
 .carousel-wbt__slide {
@@ -23,30 +22,20 @@
   margin-top: 10px;
 }
 
-/*.carousel-wbt__thumbnail {
-  // implement "50% black overlay" with a black background then making the images 50% opaque to let it show through
-  background-color: black;
-  border-right: white 2px solid;
-}
-.carousel-wbt:not(.active) img {
-  opacity: 0.5;
-}
-*/
 /* The elements below are the left and right arrows on the side of each slide */
 .carousel-wbt__thumbnails__carousel-control {
-    position: absolute;
-    top: 50%;
-    bottom: 50%;
-    transform: translateY(-50%);
-    width: 15px;
-    height: 100%;
-    background-color: rgba(255, 255, 255, .3);
-    text-align: center;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  bottom: 0;
+  width: 25px;
+  background-color: rgba(255, 255, 255, .3);
 }
+
 .carousel-wbt__thumbnails__carousel-control__icon {
   height: 15px;
-  width: auto;
-  margin: 15px 0;
 }
 
 .carousel-wbt__thumbnails__carousel-control--left {
