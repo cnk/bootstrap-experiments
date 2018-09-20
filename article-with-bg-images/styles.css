@@ -1,0 +1,25 @@
+html {
+	height: 100%;
+}
+
+body {
+	color: white;
+	height: 100%;
+}
+#page1 {background-image: url('images/karsten-wurth-inf1783-189683-unsplash.jpg');}
+#page2 {background-image: url('images/patrick-baum-202786-unsplash.jpg');}
+#page3 {background-image: url('images/marcus-cramer-415760-unsplash.jpg');}
+
+.bgimg {
+	height: 100%;
+  position: relative;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.bgimg__text {
+	max-width: 700px;
+}
+
