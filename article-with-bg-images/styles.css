@@ -1,17 +1,23 @@
-html {
-	height: 100%;
+body {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
-body {
-	color: white;
-	height: 100%;
-}
-#page1 {background-image: url('images/karsten-wurth-inf1783-189683-unsplash.jpg');}
-#page2 {background-image: url('images/patrick-baum-202786-unsplash.jpg');}
-#page3 {background-image: url('images/marcus-cramer-415760-unsplash.jpg');}
+body {background-image: url('images/karsten-wurth-inf1783-189683-unsplash.jpg');}
+body.scrolled {background-image: url('images/marcus-cramer-415760-unsplash.jpg');}
+
+
+/* #page1 {background-image: url('images/karsten-wurth-inf1783-189683-unsplash.jpg');} */
+/* #page2 {background-image: url('images/patrick-baum-202786-unsplash.jpg');} */
+/* #page3 {background-image: url('images/marcus-cramer-415760-unsplash.jpg');} */
 
 .bgimg {
-	height: 100%;
+        height: 100%;
   position: relative;
   background-position: top center;
   background-repeat: no-repeat;
@@ -20,6 +26,6 @@ body {
 }
 
 .bgimg__text {
-	max-width: 700px;
+        max-width: 700px;
 }
 
