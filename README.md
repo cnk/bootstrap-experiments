@@ -33,5 +33,6 @@ The NYTimes example has the images in div's of their own, followed by the captio
 My first attempt had all of the images available at once in the background-image atribute keyed to the id of the div I want them placed behind. This was essentially a repeat of an earlier experiment: https://github.com/cnk/slideshow But the effect I wanted was for the image to change at once (with or without a fade transition) NOT for the next image to be revealed gradually as you scroll up. It took a while to find an example similar to what I wanted. This two links have been helpful in sorting out the basic concept:
 * https://stackoverflow.com/questions/17586162/how-do-i-change-my-background-on-scroll-using-css
 * https://www.learningjquery.com/2016/10/jquery-showinghiding-html-elements-based-on-scroll-position
+* https://stackoverflow.com/questions/34317110/full-background-image-initially-fixed-then-scrolls-when-div-content-ends
 
 I now have the background image changing by using JavaScript to compare the scroll position of the page with the position of the top of the viewport. So far it only works in the forward direction. Next: make the image change when you scroll back up the page.
