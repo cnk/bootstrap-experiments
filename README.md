@@ -27,6 +27,10 @@ The NYTimes (among others) have published some really cool articles that have fu
 
 https://www.nytimes.com/interactive/2018/09/12/business/las-vegas-housing-crisis.html
 
-The NYTimes example has the images in div's of their own, followed by the caption (which also serves as the section title) and then a couple of paragraphs of text. When the user scrolls past the section title to the text, then a black overlay fades in to provide better contrast between the white text and the image below. In this example the images that appear behind the text are not actually background images.
+The NYTimes example has the images in div's of their own, followed by the caption (which also serves as the section title) and then a couple of paragraphs of text. When the user scrolls past the section title to the text, then a black overlay fades in to provide better contrast between the white text and the image below. In this example the images that appear behind the text are not actually background images. But for my first attempt, I want to experiment with making the images into actual background images so I can use 'background-size' attributes.
 
-For my first attempt, I think I do want to experiment with making the images into actual background images so I can use 'background-size' attributes.
+My first attempt had all of the images available at once in the background-image atribute keyed to the id of the div I want them placed behind. This was essentially a repeat of an earlier experiment: https://github.com/cnk/slideshow But the effect I wanted was for the image to change at once (with or without a fade transition) NOT for the next image to be revealed gradually as you scroll up. It took a while to find an example similar to what I wanted. This two links have been helpful in sorting out the basic concept:
+    * https://stackoverflow.com/questions/17586162/how-do-i-change-my-background-on-scroll-using-css
+    * https://www.learningjquery.com/2016/10/jquery-showinghiding-html-elements-based-on-scroll-position
+
+I now have the background image changing by using JavaScript to compare the scroll position of the page with the position of the top of the viewport. So far it only works in the forward direction. Next: make the image change when you scroll back up the page.
