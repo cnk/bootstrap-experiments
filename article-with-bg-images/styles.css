@@ -12,8 +12,14 @@ body {
 
 body {background-image: url('images/karsten-wurth-inf1783-189683-unsplash.jpg');}
 
+.page-title {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align: center;
+}
+
 .bgimg {
-  height: 600px;
+  height: 100vh;
 }
 .bgimg__text {
   max-width: 700px;
