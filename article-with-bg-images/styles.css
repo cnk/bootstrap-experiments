@@ -24,24 +24,24 @@ body {background-image: url('images/karsten-wurth-inf1783-189683-unsplash.jpg');
  padding-bottom: 60vh;
 }
 
-.bgimg {
+.page {
   min-height: 100vh;
 }
-.bgimg__content {
+.page__content {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 60vh;
   max-width: 500px;
 }
 @media (min-width: 769px) {
-  .bgimg__content {
+  .page__content {
     max-width: 700px;
   }
 }
-.bgimg__title {
+.page__title {
   padding-bottom: 100px;
 }
-.bgimg__text {
+.page__text {
   padding-bottom: 50px;
 }
 
