@@ -8,9 +8,10 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  -webkit-transition:opacity 6s;
+  transition:opacity 6s;
+  background-image: url('images/karsten-wurth-inf1783-189683-unsplash.jpg');
 }
-
-body {background-image: url('images/karsten-wurth-inf1783-189683-unsplash.jpg');}
 
 .title {
  padding-top: 150px;
